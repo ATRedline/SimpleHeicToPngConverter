@@ -9,11 +9,11 @@ Simple .heic to .png converter
 
 Приложение готовое для использования в архиве Download/SimpleHeicToPngConverter.zip
 
-![preview](resources/preview.png)
+![preview](Resources/preview.png)
 
-![preview](resources/previewProcess.png)
+![preview](Resources/previewProcess.png)
 
-![preview](resources/previewReady.png)
+![preview](Resources/previewReady.png)
 
 On English:
 ---
