@@ -26,7 +26,7 @@ namespace HeicToPngConverter
 			backgroundWorker.RunWorkerCompleted += BackgroundWorker_Ready;
 			backgroundWorker.DoWork += BackgroundWorker_DoWork;
 
-			openFileDialog = new OpenFileDialog() { Title = "Выберите .heic изображения / Select .heic images", Filter = "Heic images|*.heic", Multiselect = true };
+			openFileDialog = new OpenFileDialog() { Title = "Выберите .heic изображения / Select .heic images", Filter = "Heic/DNG images|*.heic;*.dng", Multiselect = true };
 			openFolderDialog = new FolderBrowserDialog() { Description = "Выберите папку для сохранения .png / Select folder to save .png", UseDescriptionForTitle = true };
 		}
 
